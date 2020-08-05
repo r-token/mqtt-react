@@ -1,6 +1,6 @@
 ## How to Publish MQTT Messages Locally
 
-*After cloning the repository locally, make sure you run 'npm install' to bring in all of the necessary packages.*
+*After cloning the repository locally, make sure you run 'npm install' at the root folder to bring in all of the necessary packages.*
 
 <br />
 
