@@ -1,5 +1,9 @@
 ## How to Publish MQTT Messages Locally
 
+*After cloning the repository locally, make sure you run 'npm install' to bring in all of the necessary packages.*
+
+<br />
+
 Have three different terminals/command prompts available:
 
 Step 0: Download & install Mosquitto (MQTT broker)
