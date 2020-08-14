@@ -4,18 +4,18 @@
 
 <br />
 
-Have two different terminals/command prompts available:
-
-Step 0: Download & install Mosquitto (MQTT broker)
+Step 0 (optional): Download & install Mosquitto (MQTT broker)
 - https://mosquitto.org/download/
 
 Step 1: In a terminal window, start the web app from within the root directory with the following command
-- Windows and macOS: npm start
+- npm start
 
-Step 2: In a second terminal, publish a message to the mqtt topic with the following command
-- Windows and macOS: mosquitto_pub -t '*your topic name here*' -h 'test.mosquitto.org' -m '*your message here*'
+Step 2.0: Click one of the two buttons on the screen
 
-Step 3: Refresh your browser and you should see the message you just published with the mosquitto_pub command
+Step 2.1 (optional, and you'll need to have done Step 0): In a second terminal, publish a message to the mqtt topic with the following command
+- mosquitto_pub -t '*your topic name here*' -h 'test.mosquitto.org' -m '*your message here*'
+
+Step 3: Refresh your browser and you should see the message you just published
 
 🥳   👍
 
